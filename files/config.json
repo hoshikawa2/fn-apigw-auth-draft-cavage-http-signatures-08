@@ -1,0 +1,12 @@
+{
+  "ClientId" : "e3xxxxxxxxxxxxxxxxxxxxxxxxc2f",
+  "ClientSecret" : "8exxxxxxd-fxxe-4xxf-8xxc-xxxxxxxx",
+  "BaseUrl" : "https://idcs-xxxxxxxxxxxxxxxxxxxxxxxx.identity.oraclecloud.com",
+  "AudienceServiceUrl" : "https://idcs-xxxxxxxxxxxxxxxxxxxxxxxx.identity.oraclecloud.com",
+  "scope" : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apigateway.us-ashburn-1.oci.customer-oci.com/super-scope",
+  "TokenIssuer" : "https://identity.oraclecloud.com",
+  "redirectURL": "http://localhost:8000/callback",
+  "logoutSufix":"/oauth2/v1/userlogout",
+  "LogLevel":"INFO",
+  "ConsoleLog":"True"
+}
