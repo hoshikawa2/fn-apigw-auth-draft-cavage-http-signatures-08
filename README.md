@@ -198,7 +198,7 @@ Execute the POST Request and view the Token
 
 ### Understand the OCI Functions and API Gateway
 
-You can download the Example of Python code here [OAuthOCIService-fn.zip](./files/OAuthOCIService-fn.zip)
+>**Note**: The **OCI fn** code can be downloaded [here](./files/OAuthOCIService-fn.zip)
 
 It's a best practice to expose your services through an API Gateway. Many authentications can be done bypassing the credentials from API Gateway to the backend services, but if the backend authentication was not the apropriate method to your client application, we can do some configurations in the API Gateway level.
 
