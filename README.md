@@ -1,12 +1,3 @@
----
-duration: PT1H00M0S
-description: Learn how to use Oracle Cloud API Gateway to expose OCI Streaming with other Authorization Methods
-level: Advanced
-roles: Devops;Developer
-products: en/cloud/oracle-cloud-infrastructure/oci
-keywords: APIs SOAP/REST
-inject-note: true
----
 
 # Learn how to use Oracle Cloud API Gateway to expose OCI Streaming with other Authorization Methods
 
