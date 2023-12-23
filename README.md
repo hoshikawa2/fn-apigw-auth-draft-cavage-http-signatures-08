@@ -335,6 +335,11 @@ The **${request.auth[authorization]}** and **${request.auth[date]}** are the val
 
 ## Task 4: Configure the OCI Group and Policies
 
+Remember to configure the Policies for **OCI Streaming**.
+
+You can do it here [OCI Streaming Policies](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/Streaming/Concepts/streaminggettingstarted.htm)
+
+And you can use common policies here [Common Policies](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/Identity/Concepts/commonpolicies.htm)
 
 ## Task 5: Test API
 
@@ -386,6 +391,8 @@ In the Logs, you can see the payloads for your custom code authorization logic.
 * [Working with OAuth 2 to Access the REST API](https://docs.oracle.com/en/cloud/paas/identity-cloud/rest-api/OATOAuthClientWebApp.html)
 * [Identity Cloud Services OAuth 2.0 and REST API](https://www.ateam-oracle.com/post/identity-cloud-services-oauth-20-and-rest-api)
 * [Oracle Cloud Infrastructure (OCI) REST call walkthrough with curl](https://www.ateam-oracle.com/post/oracle-cloud-infrastructure-oci-rest-call-walkthrough-with-curl)
+* [OCI Streaming Policies](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/Streaming/Concepts/streaminggettingstarted.htm)
+* [Common Policies](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/Identity/Concepts/commonpolicies.htm)
 
 ## Acknowledgments
 
