@@ -249,6 +249,8 @@ The rdata will construct the response for the function with the **authorization*
 
 Here we can generate a Log in the **OCI Observability** and this step is optional. Please, provide de **OCID** for the Log. You need to create a **Custom Log** previously.
 
+>**Note:** If you don't know how to create a Custom Log in OCI Observability, please see [Use OCI API Gateway, Functions and Observability to Validate JSON Content and Monitor API Headers and Body](https://docs.oracle.com/en/learn/validate-json-content-apigw-fn/#objectives)
+
 ![img_6.png](images/img_6.png)
 
 And this is the final step and return with a valid authentication.
@@ -393,6 +395,7 @@ In the Logs, you can see the payloads for your custom code authorization logic.
 * [Oracle Cloud Infrastructure (OCI) REST call walkthrough with curl](https://www.ateam-oracle.com/post/oracle-cloud-infrastructure-oci-rest-call-walkthrough-with-curl)
 * [OCI Streaming Policies](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/Streaming/Concepts/streaminggettingstarted.htm)
 * [Common Policies](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/Identity/Concepts/commonpolicies.htm)
+* [Use OCI API Gateway, Functions and Observability to Validate JSON Content and Monitor API Headers and Body](https://docs.oracle.com/en/learn/validate-json-content-apigw-fn/#introduction)
 
 ## Acknowledgments
 
