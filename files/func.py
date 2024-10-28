@@ -16,7 +16,7 @@ def get_date():
 def get_signing(d, streaming_host, oci_region):
     with open('oci_api_key.pem', 'rb') as key_file:
         private_key = load_pem_private_key(key_file.read(), password=None)# Dados para assinar
-    str = b'(request-target): post /20180418/streams/<streaming_host>/groupCursors\ndate: <date_str>\nhost: cell-1.streaming.<oci_region>.oci.oraclecloud.com'# Assine os dados usando SHA-256 e a chave privada
+    str = b'(request-target): post /20180418/streams/<streaming_host>/groupCursors\ndate: <date_str>\nhost: streaming.<oci_region>.oci.oraclecloud.com'# Assine os dados usando SHA-256 e a chave privada
 
     data = str.replace(b'<date_str>', bytes(d.encode())).replace(b'<streaming_host>', bytes(streaming_host.encode())).replace(b'<oci_region>', bytes(oci_region.encode()))
     signature = private_key.sign(data, padding.PKCS1v15(), hashes.SHA256())# Imprima a assinatura
